@@ -3,11 +3,11 @@
 int main(){
 	
 	//---------------Variaveis--------------//
-	float notasAlunos[3];
+	float notasAlunos[30];
 	int i;
 	
 	//---------------Repetiçao--------------//
-	for(i=0; i<3; i++)
+	for(i=0; i<30; i++)
 	{
 		printf("Nos informe a sua nota:");
 		scanf("%f", &notasAlunos[i]);
@@ -16,7 +16,7 @@ int main(){
 	//---------------------Estrutura de Condição-------------------//
 	//---------------------Relatório-------------------//
 	printf("				Relatorio de Notas do Alunos \n\n");
-	for(i=0; i<3; i++)
+	for(i=0; i<30; i++)
 	{
 		printf("%.1f \n\n", notasAlunos[i]);
 	}
